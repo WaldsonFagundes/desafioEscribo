@@ -17,7 +17,7 @@
 void main() {
   
 // Altere o valor de entrada da função para somar os números inteiros
-// divisíveis por 3 ou 5 que sejam inferiores ao valor de 'input'.
+// divisíveis por 3 ou 5 que sejam inferiores ao valor da entrada.
   print(somaDosDivisiveis(10));
   
  }
