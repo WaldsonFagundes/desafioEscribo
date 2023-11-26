@@ -1,11 +1,5 @@
-void main() {
-  
-// Altere o valor de 'input' para somar os números inteiros
-// divisíveis por 3 ou 5 que sejam inferiores ao valor de 'input'.
-int input = 11;
-  
-  
-  void desafio(int valor) {
+
+ int somaDosDivisiveis(int valor) {
     
     int soma = 0;
     
@@ -15,11 +9,15 @@ int input = 11;
       }
     }
     
-    print('Somatório');
-    print(soma);
-  }
-  
-  desafio(input);
-  
- 
+   return soma;
+   
 }
+
+
+void main() {
+  
+// Altere o valor de entrada da função para somar os números inteiros
+// divisíveis por 3 ou 5 que sejam inferiores ao valor de 'input'.
+  print(somaDosDivisiveis(10));
+  
+ }
